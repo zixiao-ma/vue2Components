@@ -46,6 +46,9 @@ const createMessage = (data) => {
     case 'select' :
       msg = '请选择'
       break
+    case 'checkbox' :
+      msg = '请选择'
+      break
   }
   return `${msg}${data.label}`
 }
